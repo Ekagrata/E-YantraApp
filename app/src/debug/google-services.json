@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "958893498761",
+    "firebase_url": "https://eyantra-app-7a79f.firebaseio.com",
+    "project_id": "eyantra-app-7a79f",
+    "storage_bucket": "eyantra-app-7a79f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958893498761:android:fa0d82c13ef73a7c",
+        "android_client_info": {
+          "package_name": "com.example.rajneesh.googlesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958893498761-uhjknnfv3g3dc127blvlhjjmd1bot76t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCirmtgZyxf_0uvceQqHM7vo82wKEsS1E8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

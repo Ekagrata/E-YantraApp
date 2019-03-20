@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/backimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleimage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backimage" />
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="name"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/circleimage"
+        app:layout_constraintTop_toBottomOf="@+id/backimage"
+        app:robotoTextStyle="normal"
+        app:robotoTypeface="roboto_condensed_bold" />
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Student"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toEndOf="@+id/circleimage"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:robotoTextStyle="normal"
+        app:robotoTypeface="roboto_condensed_regular" />
+
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="48dp"
+        android:text="email"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleimage"
+        app:robotoTextStyle="normal"
+        app:robotoTypeface="roboto_condensed_bold" />
+
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        android:id="@+id/text_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="Phone Number"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_email"
+        app:robotoTextStyle="normal"
+        app:robotoTypeface="roboto_condensed_bold" />
+
+    <com.devspark.robototextview.widget.RobotoTextView
+        android:id="@+id/text_college"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:text="College"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_phone"
+        app:robotoTextStyle="normal"
+        app:robotoTypeface="roboto_condensed_bold" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/text_jobtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="24dp"
+            android:text="Job Title"
+            android:textColor="@color/blue"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_branch"
+            app:robotoTextStyle="normal"
+            app:robotoTypeface="roboto_condensed_bold" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/text_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="24dp"
+            android:text="Company"
+            android:textColor="@color/blue"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_jobtitle"
+            app:robotoTextStyle="normal"
+            app:robotoTypeface="roboto_condensed_bold" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/text_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="68dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="24dp"
+            android:text="Year"
+            android:textColor="@color/blue"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_college"
+            app:robotoTextStyle="normal"
+            app:robotoTypeface="roboto_condensed_bold" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/text_branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="24dp"
+            android:text="Branch"
+            android:textColor="@color/blue"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_year"
+            app:robotoTextStyle="normal"
+            app:robotoTypeface="roboto_condensed_bold" />
+
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="52dp"
+            android:text="dummyemail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/text_email"
+            app:layout_constraintTop_toBottomOf="@+id/type" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="41dp"
+            android:layout_marginLeft="107dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginStart="107dp"
+            android:layout_marginTop="26dp"
+            android:text="dummyphone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/text_phone"
+            app:layout_constraintTop_toBottomOf="@+id/email" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/college"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="35dp"
+            android:layout_marginLeft="138dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="36dp"
+            android:text="dummycollege"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/text_college"
+            app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="49dp"
+            android:layout_marginLeft="158dp"
+            android:layout_marginRight="49dp"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="24dp"
+            android:text="dummyyear"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/text_year"
+            app:layout_constraintTop_toBottomOf="@+id/college" />
+
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="37dp"
+            android:layout_marginLeft="142dp"
+            android:layout_marginRight="37dp"
+            android:layout_marginStart="142dp"
+            android:layout_marginTop="30dp"
+            android:text="dummybranch"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/text_branch"
+            app:layout_constraintTop_toBottomOf="@+id/year" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/jobtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="42dp"
+            android:layout_marginLeft="134dp"
+            android:layout_marginRight="42dp"
+            android:layout_marginStart="134dp"
+            android:layout_marginTop="30dp"
+            android:text="dummyjobtitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/text_jobtitle"
+            app:layout_constraintTop_toBottomOf="@+id/branch" />
+
+        <com.devspark.robototextview.widget.RobotoTextView
+            android:id="@+id/company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="29dp"
+            android:layout_marginLeft="132dp"
+            android:layout_marginRight="29dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="33dp"
+            android:text="dummycompany"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jobtitle" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

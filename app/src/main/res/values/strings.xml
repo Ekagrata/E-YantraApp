@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">google sign in</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+
+    <string name="Name">Name</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_photo_view">photoViewActivity</string>
+    <string name="title_activity_lgin_auth">LginAuthActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="api_key">AIzaSyBdRJvfHiRBEP93_zMXZx2z7FnOBy3lDn8</string>
+    <string name="title_activity_landpage">landpage</string>
+    <string name="title_activity_talk_videos">TalkVideosActivity</string>
+    <string name="title_activity_elsi">elsiActivity</string>
+    <string name="title_activity_resources">ResourcesActivity</string>
+    <string name="title_activity_projects_eyrc">Projects_eyrcActivity</string>
+    <string name="title_activity_posts">PostsActivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_newsfeed">NewsfeedActivity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string-array name="choices_array">
+        <item>Faculty</item>
+        <item>Student</item>
+        <item>Professional</item>
+
+    </string-array>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+</resources>
